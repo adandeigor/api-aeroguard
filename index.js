@@ -14,7 +14,7 @@ app.use('/api/alerts', alertRouter);
 
 
 app.get('/', (req, res) => {
-  res.send('Air-Qualify Backend is running ✅');
+  res.send('Air-Qualify Backend is running');
 });
 
 
