@@ -12,4 +12,10 @@ app.use(express.json());
 app.use('/api/predict', predictRouter);
 app.use('/api/alerts', alertRouter);
 
+
+app.get('/', (req, res) => {
+  res.send('Air-Qualify Backend is running ✅');
+});
+
+
 export default app;
