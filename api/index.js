@@ -8,9 +8,9 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-// 🔹 routes
-app.use('/api/predict', predictRouter);
-app.use('/api/alerts', alertRouter);
+// // 🔹 routes
+// app.use('/api/predict', predictRouter);
+// app.use('/api/alerts', alertRouter);
 
 
 app.get('/', (req, res) => {
